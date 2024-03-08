@@ -92,7 +92,7 @@
           >
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-gray">
+          <ul class="menu menu-horizontal px-1">
             <li><a class="text-red font-semibold">Home</a></li>
             <li><a>About</a></li>
             <li><a>Pages</a></li>
@@ -111,7 +111,83 @@
       </div>
     </header>
 
-    <main class="container mx-auto"></main>
+    <main class="container mx-auto">
+      <!-- Hero Carousel -->
+      <section class="mt-5">
+        <div class="carousel w-full h-96">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img
+              src="./Images/1.png"
+              class="w-full rounded-3xl object-cover"
+            />
+            <div
+              class="absolute flex justify-center md:justify-start lg:justify-start gap-2 md:gap-6 lg:gap-6 transform -translate-y-1/2 left-5 right-5 bottom-12 md:bottom-0 lg:bottom-0"
+            >
+              <a
+                href="#slide4"
+                class="btn btn-circle bg-black text-white border-0"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-black text-white border-0"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="./Images/2.png" class="w-full rounded-3xl" />
+            <div
+              class="absolute flex justify-center md:justify-start lg:justify-start gap-2 md:gap-6 lg:gap-6 transform -translate-y-1/2 left-5 right-5 bottom-12 md:bottom-0 lg:bottom-0"
+            >
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-black text-white border-0"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="btn btn-circle bg-black text-white border-0"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img
+              src="./Images/3.png"
+              class="w-ful rounded-3xl object-cover"
+            />
+            <div
+              class="absolute flex justify-center md:justify-start lg:justify-start gap-2 md:gap-6 lg:gap-6 transform -translate-y-1/2 left-5 right-5 bottom-12 md:bottom-0 lg:bottom-0"
+            >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-black text-white border-0"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-black text-white border-0"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card bg-primary bg-black">
+            <div class="card-body">
+              <h2 class="card-title text-white">
+                Meet all the heroes from the field
+              </h2>
+              <h2 class="text-zinc-500">
+                Discover exceptional individuals excelling in various fields,
+                inspiring with their achievements.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>
