@@ -11,3 +11,7 @@
             </h2>
           </div>
         </div>
+
+
+
+        card  relative md:absolute lg:absolute lg:top-72 lg:right-40 w-full md:w-full lg:w-2/5 bg-black border-2 border-red-500

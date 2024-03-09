@@ -123,7 +123,7 @@
       <section class="mt-5">
         <div class="carousel w-full h-96">
           <div id="slide1" class="carousel-item relative w-full">
-            <img src="./Images/1.png" class="w-full rounded-3xl object-cover" />
+            <img src="./Images/1.png" class="w-full rounded-3xl" />
             <div
               class="absolute flex justify-center md:justify-start lg:justify-start gap-2 md:gap-6 lg:gap-6 transform -translate-y-1/2 left-5 right-5 bottom-12 md:bottom-0 lg:bottom-0"
             >
@@ -174,17 +174,19 @@
             </div>
           </div>
         </div>
-        <div
-          class="card relative md:absolute lg:absolute lg:top-72 lg:right-40 w-full md:w-full lg:w-2/5 bg-black border-2 border-red-500"
-        >
-          <div class="card-body">
-            <h2 class="card-title text-white">
-              Meet all the heroes from the field
-            </h2>
-            <h2 class="text-zinc-500">
-              Discover exceptional individuals excelling in various fields,
-              inspiring with their achievements.
-            </h2>
+        <div class="flex justify-end items-end ">
+          <div
+            class="card w-auto md:w-full lg:w-2/5 bg-black relative md:relative lg:absolute mb-0 md:mb-0 lg:mb-10 mr-0 md:mr-0 lg:mr-14 "
+          >
+            <div class="card-body">
+              <h2 class="card-title text-white">
+                Meet all the heroes from the field
+              </h2>
+              <h2 class="text-zinc-500">
+                Discover exceptional individuals excelling in various fields,
+                inspiring with their achievements.
+              </h2>
+            </div>
           </div>
         </div>
       </section>
@@ -836,13 +838,18 @@
     </main>
 
     <footer class="bg-black">
-      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 py-20 px-4 text-zinc-400 container mx-auto">
-
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 py-20 px-4 text-zinc-400 container mx-auto"
+      >
         <!-- footer part 1 -->
         <div class="flex flex-col items-center md:items-start lg:items-start">
           <h1 class="text-white text-xl font-extrabold mb-4">Get In Touch</h1>
           <div class="">
-            <p class="">Connect with us effortlessly to explore opportunities,  address inquiries, or discuss how we can assist you further. Your  satisfaction is our priority.</p>
+            <p class="">
+              Connect with us effortlessly to explore opportunities, address
+              inquiries, or discuss how we can assist you further. Your
+              satisfaction is our priority.
+            </p>
           </div>
           <div class="flex justify-center items-center gap-3 mt-4">
             <i class="fa-regular fa-envelope text-red"></i>
@@ -852,30 +859,38 @@
             <i class="fa-solid fa-phone text-red"></i>
             <p>(+62) 123-321-543</p>
           </div>
-        </div> 
+        </div>
 
         <!-- footer part 2 -->
-        <div class="grid grid-cols-2 md:grid-row-1 lg:grid-rows-1 mt-10 md:mt-0 lg:mt-0">
-          <div class="flex flex-col items-center md:items-start lg:items-start mx-auto">
-            <h6 class="text-white text-xl font-extrabold mb-4">Company</h6> 
+        <div
+          class="grid grid-cols-2 md:grid-row-1 lg:grid-rows-1 mt-10 md:mt-0 lg:mt-0"
+        >
+          <div
+            class="flex flex-col items-center md:items-start lg:items-start mx-auto"
+          >
+            <h6 class="text-white text-xl font-extrabold mb-4">Company</h6>
             <a class="link link-hover">About us</a>
             <a class="link link-hover">Leadership</a>
             <a class="link link-hover">Careers</a>
             <a class="link link-hover">News & Article</a>
             <a class="link link-hover">Legal Notice</a>
-          </div> 
-          <div class="flex flex-col items-center md:items-start lg:items-start mx-auto">
-            <h6 class="text-white text-xl font-extrabold mb-4">Support</h6> 
+          </div>
+          <div
+            class="flex flex-col items-center md:items-start lg:items-start mx-auto"
+          >
+            <h6 class="text-white text-xl font-extrabold mb-4">Support</h6>
             <a class="link link-hover">Help Center</a>
             <a class="link link-hover">FAQ</a>
             <a class="link link-hover">Ticket Support</a>
             <a class="link link-hover">Contact Us</a>
           </div>
         </div>
-        
+
         <!-- footer part 3 -->
-        <div class="flex flex-col items-center md:items-start lg:items-start mx-auto mt-10 md:mt-0 lg:mt-0">
-          <h6 class="text-white text-xl font-extrabold mb-4">Services</h6> 
+        <div
+          class="flex flex-col items-center md:items-start lg:items-start mx-auto mt-10 md:mt-0 lg:mt-0"
+        >
+          <h6 class="text-white text-xl font-extrabold mb-4">Services</h6>
           <a class="link link-hover">Academy</a>
           <a class="link link-hover">Group Lesson</a>
           <a class="link link-hover">Private Lesson</a>
