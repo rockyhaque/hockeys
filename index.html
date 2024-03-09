@@ -36,6 +36,7 @@
               red: "#FF4240",
               black: "#131318",
               gray: "#13131899",
+              hrLineColor: "#13131833",
             },
           },
         },
@@ -116,10 +117,7 @@
       <section class="mt-5">
         <div class="carousel w-full h-96">
           <div id="slide1" class="carousel-item relative w-full">
-            <img
-              src="./Images/1.png"
-              class="w-full rounded-3xl object-cover"
-            />
+            <img src="./Images/1.png" class="w-full rounded-3xl object-cover" />
             <div
               class="absolute flex justify-center md:justify-start lg:justify-start gap-2 md:gap-6 lg:gap-6 transform -translate-y-1/2 left-5 right-5 bottom-12 md:bottom-0 lg:bottom-0"
             >
@@ -153,10 +151,7 @@
             </div>
           </div>
           <div id="slide3" class="carousel-item relative w-full">
-            <img
-              src="./Images/3.png"
-              class="w-ful rounded-3xl object-cover"
-            />
+            <img src="./Images/3.png" class="w-full rounded-3xl object-cover" />
             <div
               class="absolute flex justify-center md:justify-start lg:justify-start gap-2 md:gap-6 lg:gap-6 transform -translate-y-1/2 left-5 right-5 bottom-12 md:bottom-0 lg:bottom-0"
             >
@@ -173,18 +168,115 @@
             </div>
           </div>
         </div>
-        <div>
-          <div class="card bg-primary bg-black">
-            <div class="card-body">
-              <h2 class="card-title text-white">
-                Meet all the heroes from the field
-              </h2>
-              <h2 class="text-zinc-500">
-                Discover exceptional individuals excelling in various fields,
-                inspiring with their achievements.
-              </h2>
+        <div
+          class="card relative md:absolute lg:absolute lg:top-72 lg:right-40 w-full md:w-full lg:w-2/5 bg-black border-2 border-red-500"
+        >
+          <div class="card-body">
+            <h2 class="card-title text-white">
+              Meet all the heroes from the field
+            </h2>
+            <h2 class="text-zinc-500">
+              Discover exceptional individuals excelling in various fields,
+              inspiring with their achievements.
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-10 border-dashed text-hrLineColor" />
+
+      <!-- Club Percentage -->
+      <section class="mt-10">
+        <div class="text-center">
+          <h2 class="text-3xl font-extrabold">Professional Hockeys Club</h2>
+          <p class="mt-5">
+            Elite hockey club uniting skilled players for competitive <br> and
+            professional sports.
+          </p>
+
+          <hr class="my-10 border-dashed text-hrLineColor" />
+        </div>
+        <div class="flex justify-evenly items-center">
+          <!-- Progress 1 -->
+          <div class="text-center">
+            <div
+              class="radial-progress bg-white text-red text-xl font-bold"
+              style="--value: 87"
+              role="progressbar"
+            >
+              87%
+            </div>
+            <div><h2 class="text-2xl font-bold my-5">Prayer Facility</h2></div>
+            <div>
+              A dedicated space for spiritual reflection, worship, and communal
+              prayer.
             </div>
           </div>
+
+          <!-- Progress 2 -->
+          <div class="text-center">
+            <div
+              class="radial-progress bg-white text-[#49D293] text-xl font-bold"
+              style="--value: 95"
+              role="progressbar"
+            >
+              95%
+            </div>
+            <div>
+              <h2 class="text-2xl font-bold my-5">Experienced Coach</h2>
+            </div>
+            <div>
+              Highly skilled mentor providing expertise and guidance in
+              specialized areas.
+            </div>
+          </div>
+
+          <!-- Progress 3 -->
+          <div class="text-center">
+            <div
+              class="radial-progress bg-white text-[#FFB546] text-xl font-bold"
+              style="--value: 90"
+              role="progressbar"
+            >
+              90%
+            </div>
+            <div><h2 class="text-2xl font-bold my-5">Senior Player</h2></div>
+            <div>
+              Experienced athlete contributing wisdom and leadership to team
+              dynamics and performance.
+            </div>
+          </div>
+
+          <!-- Progress 4 -->
+          <div class="text-center">
+            <div
+              class="radial-progress bg-white text-[#4C8DF1] text-xl font-bold"
+              style="--value: 80"
+              role="progressbar"
+            >
+              80%
+            </div>
+            <div><h2 class="text-2xl font-bold my-5">Training Ground</h2></div>
+            <div>
+              Designated area for honing skills and fostering growth in athletic
+              endeavors.
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-14 border-dashed text-hrLineColor" />
+      </section>
+
+      <!-- Program Section -->
+      <section>
+        <div class="text-center">
+          <h2 class="text-3xl font-extrabold">Program Sections</h2>
+          <p class="mt-5">
+            Distinct segments or divisions within a program, each <br>  serving
+            specific purposes.
+          </p>
+
+          <hr class="my-10 border-dashed text-hrLineColor" />
         </div>
       </section>
     </main>
